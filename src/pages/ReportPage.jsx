@@ -18,9 +18,9 @@ const ReportPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4 font-inter">
-      <div className="w-full p-8 bg-white rounded-lg shadow-xl">
-        <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">Quiz Report</h1>
+    <div className="flex flex-col h-screen bg-gray-100 items-center justify-center font-inter">
+      <div className="w-full p-3 bg-white rounded-lg shadow-xl">
+        <h1 className="text-3xl font-bold text-center text-gray-800 mb-2">Quiz Report</h1>
         <p className="text-center text-2xl font-semibold text-gray-700 mb-8">
           You scored <span className="text-blue-600">{score}</span> out of <span className="text-blue-600">{total}</span>
         </p>
